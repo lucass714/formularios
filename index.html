@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <img class="img1" src="assets.img/b-logo-header-3.svg" alt=""
+     
+    >
+</head>
+
+<body>
+
+    <header>
+        <h1 style="text-align: center; color: white;">¡Registrate como socio de Boca!</h1>
+
+    </header>
+
+
+    <div style="width: 800px; margin: 0 auto;">
+        <form action="/registro" style="display: flex; flex-direction: column;align-items: center;" method="post">
+            <label for="nombre"> NOMBRE:</label>
+            <input type="text" id="nombre" name="nombre" required> <!-- tipo texto-->
+            <label for="email">DNI</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" name="email" required> <!-- tipo email -->
+
+
+            <label for="contrasena">CONTRASEÑA:</label>
+            <input type="password" id="contrasena" name="contrasena" required> <!-- tipo password-->
+            <label for="edad">EDAD:</label>
+            <input type="number" id="edad" name="edad" required> <!-- tipo número-->
+            <input type="submit" style="width: 300px; background-color:rgb(255, 255, 255) " value="Registrarse"> <!-- botón de envío al servidor-->
+        </form>
+    </div>
+    <div style="display: flex; justify-content: center;"><img src="assets.img/tarjeta_xeneize.jpg" alt="">
+    <img src="assets.img/boca_shop.jpg" alt="">
+    </div>
+</body>
+
+</html>
